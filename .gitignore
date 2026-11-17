@@ -1,0 +1,14 @@
+# Simulation outputs
+register4_sim
+*.vcd
+
+# OpenLane generates a complete timestamped run here.
+openlane/runs/
+runs/
+
+# Python/editor/OS artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.vscode/
+.DS_Store
